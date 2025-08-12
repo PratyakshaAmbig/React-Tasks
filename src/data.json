@@ -1,0 +1,25 @@
+{
+   "faqs": [
+  {
+    "question": "What is React?",
+    "answer": "React is a JavaScript library for building user interfaces, primarily for single-page applications."
+  },
+  {
+    "question": "What is JSX?",
+    "answer": "JSX stands for JavaScript XML. It allows you to write HTML elements in JavaScript and place them in the DOM without using createElement or appendChild."
+  },
+  {
+    "question": "What are props in React?",
+    "answer": "Props (short for properties) are read-only attributes used to pass data from a parent component to a child component."
+  },
+  {
+    "question": "What is the difference between state and props in React?",
+    "answer": "Props are read-only and passed from parent to child, while state is local to the component and can be changed within the component."
+  },
+  {
+    "question": "What is useState in React?",
+    "answer": "useState is a React Hook that allows you to add state variables to functional components."
+  }
+]
+
+}
