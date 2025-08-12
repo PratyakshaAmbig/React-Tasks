@@ -3,6 +3,7 @@ import Accordion from "./components/Accordion";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import StartRating from "./components/StartRating";
+import CopyText from "./components/CopyText";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
           <Route path="/" element={<Home/>}/>
           <Route path="/accordion" element={<Accordion/>}/>
           <Route path="/starRating" element={<StartRating/>}/>
+          <Route path="/copytext" element={<CopyText/>}/>
         </Routes>
       </BrowserRouter>
   );

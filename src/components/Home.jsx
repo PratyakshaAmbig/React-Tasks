@@ -11,6 +11,10 @@ const Home = () => {
             title:"StarRating-Task",
             link:'/starRating'
         },
+        {
+            title:"Copy to Clipboard Task",
+            link:'/copytext'
+        },
         
     ]
   return (
