@@ -7,6 +7,10 @@ const Home = () => {
             title:"Accordion-Task",
             link:'/accordion'
         },
+        {
+            title:"StarRating-Task",
+            link:'/starRating'
+        },
         
     ]
   return (
