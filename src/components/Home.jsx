@@ -15,6 +15,10 @@ const Home = () => {
             title:"Copy to Clipboard Task",
             link:'/copytext'
         },
+        {
+            title:"OTP field Task",
+            link:'/otp'
+        },
         
     ]
   return (
