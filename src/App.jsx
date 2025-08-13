@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import StartRating from "./components/StartRating";
 import CopyText from "./components/CopyText";
 import OTP from "./components/OTP";
+import ImageCarouse from "./components/ImageCarouse";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/starRating" element={<StartRating/>}/>
           <Route path="/copytext" element={<CopyText/>}/>
           <Route path="/otp" element={<OTP/>}/>
+          <Route path="/imagecarouse" element={<ImageCarouse/>}/>
         </Routes>
       </BrowserRouter>
   );

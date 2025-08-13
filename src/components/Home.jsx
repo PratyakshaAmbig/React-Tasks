@@ -19,6 +19,10 @@ const Home = () => {
             title:"OTP field Task",
             link:'/otp'
         },
+        {
+            title:"Image Carouse Task",
+            link:'/imagecarouse'
+        },
         
     ]
   return (
