@@ -23,6 +23,10 @@ const Home = () => {
             title:"Image Carouse Task",
             link:'/imagecarouse'
         },
+        {
+            title:"Drag and Drop Task",
+            link:'/draganddrop'
+        },
         
     ]
   return (

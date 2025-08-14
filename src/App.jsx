@@ -6,6 +6,7 @@ import StartRating from "./components/StartRating";
 import CopyText from "./components/CopyText";
 import OTP from "./components/OTP";
 import ImageCarouse from "./components/ImageCarouse";
+import DragAndDrop from "./components/DragAndDrop";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/copytext" element={<CopyText/>}/>
           <Route path="/otp" element={<OTP/>}/>
           <Route path="/imagecarouse" element={<ImageCarouse/>}/>
+          <Route path="/draganddrop" element={<DragAndDrop/>}/>
         </Routes>
       </BrowserRouter>
   );
