@@ -27,6 +27,10 @@ const Home = () => {
             title:"Drag and Drop Task",
             link:'/draganddrop'
         },
+        {
+            title:"SearchBar Task",
+            link:'/searchbartask'
+        },
         
     ]
   return (
